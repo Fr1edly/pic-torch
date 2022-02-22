@@ -12,11 +12,10 @@ from torchvision import transforms
 import csv, shutil
 
 num_epochs = 20
-batchsize = 1
 lr =.001
 
 epochs = 2
-batch_size=1
+batch_size=5
 lr=0.003
 train_data_path = 'assets/images/train'
 test_data_path = 'assets/images/test'
@@ -26,9 +25,9 @@ transform = transforms.Compose([
 ])
 
 train_data = torchvision.datasets.ImageFolder(root=train_data_path, transform=transform)
-train_loader = data.DataLoader(train_data, batch_size=batchsize, shuffle=True, num_workers=4)
+train_loader = data.DataLoader(train_data, batch_size=batch_size, shuffle=False, num_workers=4)
 test_data= torchvision.datasets.ImageFolder(root=test_data_path, transform=transform)
-test_loader = data.DataLoader(test_data, batch_size=batchsize, shuffle=True, num_workers=4)
+test_loader = data.DataLoader(test_data, batch_size=batch_size, shuffle=True, num_workers=4)
 
 classes = [str(i) for i in range(0,67)]
 

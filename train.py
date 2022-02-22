@@ -17,18 +17,26 @@ def run():
 if __name__ =='__main__':
     run()
     net = model.imgNet()
-
+    net.train()
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.SGD(net.parameters(), lr =.001, momentum=0.9)
 
-    epo = 10
+    epo = 3
 
     for epoch in range(epo):
         net.train()
         run_loss = 0.0
         for i, data in enumerate(d.train_loader):
             inputs, labels = data
-        
+            #
+            """
+            qwe = utils.make_grid(inputs)
+            qwe = qwe/2+0.5
+            npimg = qwe.numpy()
+            npimg= np.transpose(npimg,(1,2,0))
+            cv.imshow('1', npimg)
+            cv.waitKey(5000)"""
+            #
             optimizer.zero_grad()
 
             outputs = net(inputs)
