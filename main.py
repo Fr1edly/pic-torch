@@ -15,8 +15,6 @@ from PIL import Image
 
 def run():
     torch.multiprocessing.freeze_support()
-
-
     
 if __name__ == "__main__":
     run()
@@ -62,8 +60,8 @@ if __name__ == "__main__":
         outputs = net(images)
 
         _, predic = torch.max(outputs, 1)
-        print(predic, end='\r')
-        #print('Predicted: ', ' '.join('%5s' % d.classes[predic[j]] for j in range(d.batch_size)),end='\r' )
+        #print(predic, end='\r')
+        print('Predicted: ', ' '.join('%5s ;' % d.classes[predic[j]] for j in range(d.batch_size)),end='\r' )
         #npimg = np.ascontiguousarray(npimg, dtype=np.uint8)
        # for w in range(8):
        #     for h in range(2):

@@ -34,8 +34,10 @@ if __name__ =='__main__':
             qwe = qwe/2+0.5
             npimg = qwe.numpy()
             npimg= np.transpose(npimg,(1,2,0))
+            print(labels, end='\r')
             cv.imshow('1', npimg)
-            cv.waitKey(5000)"""
+            cv.waitKey(100)
+           """
             #
             optimizer.zero_grad()
 

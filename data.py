@@ -27,10 +27,14 @@ transform = transforms.Compose([
 train_data = torchvision.datasets.ImageFolder(root=train_data_path, transform=transform)
 train_loader = data.DataLoader(train_data, batch_size=batch_size, shuffle=False, num_workers=4)
 test_data= torchvision.datasets.ImageFolder(root=test_data_path, transform=transform)
-test_loader = data.DataLoader(test_data, batch_size=batch_size, shuffle=True, num_workers=4)
+test_loader = data.DataLoader(test_data, batch_size=batch_size, shuffle=False, num_workers=4)
 
-classes = [str(i) for i in range(0,67)]
+csvfile = open('assets/images/signs.csv', encoding='UTF-8')
+reader = csv.reader(csvfile)
 
+classes = [(row[0].split(';'))[1].split('-')[0] for row in reader]
+
+csvfile.close()
 """
 csvfile = open('assets/images/train.csv')
 reader = csv.reader(csvfile)

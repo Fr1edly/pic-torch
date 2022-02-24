@@ -1,67 +1,67 @@
-0;Железнодорожный переезд со шлагбаумом-Railway crossing with barrier;
-1;Опасный поворот (правый)-Dangerous turn (right)
-2;Опасный поворот (левый)-Dangerous turn (left)
-3;Опасные повороты (с первым поворотом направо)-Dangerous turns (with the first turn to the right)
-4;Опасные повороты (с первым поворотом налево)-Dangerous turns (with first left)
-5;Крутой спуск-Steep descent
-6;Крутой подъем-The steep climb
-7;Скользкая дорога-Slippery road
-8;Неровная дорога-Rough road
-9;Искусственная неровность-Аrtificial bump
-10;Выброс гравия-Gravel ejection
-11;Опасная обочина-Dangerous verge
-12;Железнодорожный переезд без шлагбаума-Railway crossing without barrier
-13;Сужение дороги(с обеих сторон)-Road narrows(both sides)
-14;Сужение дороги(справа)-Road narrowing (right)
-15;Сужение дороги(слева)-Road narrowing (left)
-16;Двустороннее движение-Two way traffic
-17;Пешеходный переход-Crosswalk
-18;Дети-Children
-19;Дорожные работы-Road works
-20;Дикие животные-Wild animals
-21;Прочие опасности-Other hazards
-22;Пересечение с трамвайной линией-Intersection with the tram line
-23;Светофорное регулирование-Traffic light regulation
-24;Пересечение со второстепенной дорогой-Intersection with secondary road
-25;Примыкание второстепенной дороги-Minor road junction
-26;Примыкание второстепенной дороги-Minor road junction
-27;Движение без остановки запрещено-Movement without stopping is prohibited
-28;Преимущество встречного движения-Opposite traffic advantage
-29;Въезд запрещен-No entry
-30;Движение пешеходов запрещено-No Pedestrians
-31;Ограничение массы(5)-Mass limitation(5)
-"32;Ограничение высоты(3,5)-Height limit(3,5)"
-"33;Ограничение высоты(4,5)-Height limit(4,5)"
-34;Поворот направо запрещен-Right turn prohibited
-35;Поворот налево запрещен-Left turn prohibited
-36;Разворот запрещен-U-turn prohibited
-37;Движение запрещено-Movement Prohibition
-38;Обгон запрещен-No overtaking
-39;Ограничение максимальной скорости(10)-Maximum speed limit(10)
-40;Ограничение максимальной скорости(20)-Maximum speed limit(20)
-41;Ограничение максимальной скорости(30)-Maximum speed limit(30)
-42;Ограничение максимальной скорости(40)-Maximum speed limit(40)
-43;Ограничение максимальной скорости(5)-Maximum speed limit(5)
-44;Ограничение максимальной скорости(50)-Maximum speed limit(50)
-45;Ограничение максимальной скорости(60)-Maximum speed limit(60)
-46;Ограничение максимальной скорости(70)-Maximum speed limit(70)
-47;Ограничение максимальной скорости(80)-Maximum speed limit(80)
-48;Остановка запрещена-Stop prohibited
-49;Стоянка запрещена-No parking
-50;Стоянка запрещена по нечетным числам месяца-Parking prohibited on odd days of the month
-51;Стоянка запрещена по четным числам месяца-Parking prohibited on even days of the month
-52;Движение транспортных средств с опасными грузами запрещено-The movement of vehicles with dangerous goods is prohibited
-53;Движение грузовых автомобилей запрещено-Truck traffic is prohibited
-54;Движение грузовых автомобилей запрещено-Truck traffic is prohibited
-55;Движение прямо-Going straight
-56;Движение направо-Movement to the right
-57;Движение в правую сторону-Movement to the right
-58;Движение в левую сторону-Movement to the left
-59;Движение налево-Movement to the left
-60;Движение прямо или направо-Driving straight or to the right
-61;Движение прямо или налево-Driving straight or left
-62;Движение направо или налево-Movement right or left
-63;Объезд препятствия справа-Obstacle avoidance on the right
-64;Объезд препятствия слева-Obstacle avoidance on the left
-65;Объезд препятствия справа или слева-Obstacle avoidance on the right or left
-66;Круговое движение-Circular motion
+"0;Железнодорожный переезд со шлагбаумом-Railway crossing with barrier"
+"1;Опасный поворот (правый)-Dangerous turn (right)"
+"2;Выброс гравия-Gravel ejection"
+"3;Опасная обочина-Dangerous verge"
+"4;Железнодорожный переезд без шлагбаума-Railway crossing without barrier"
+"5;Сужение дороги(с обеих сторон)-Road narrows(both sides)"
+"6;Сужение дороги(справа)-Road narrowing (right)"
+"7;Сужение дороги(слева)-Road narrowing (left)"
+"8;Двустороннее движение-Two way traffic"
+"9;Пешеходный переход-Crosswalk"
+"10;Дети-Children"
+"11;Дорожные работы-Road works"
+"12;Опасный поворот (левый)-Dangerous turn (left)"
+"13;Дикие животные-Wild animals"
+"14;Прочие опасности-Other hazards"
+"15;Пересечение с трамвайной линией-Intersection with the tram line"
+"16;Светофорное регулирование-Traffic light regulation"
+"17;Пересечение со второстепенной дорогой-Intersection with secondary road"
+"18;Примыкание второстепенной дороги-Minor road junction"
+"19;Примыкание второстепенной дороги-Minor road junction"
+"20;Движение без остановки запрещено-Movement without stopping is prohibited"
+"21;Преимущество встречного движения-Opposite traffic advantage"
+"22;Въезд запрещен-No entry"
+"23;Опасные повороты (с первым поворотом направо)-Dangerous turns (with the first turn to the right)"
+"24;Движение пешеходов запрещено-No Pedestrians"
+"25;Ограничение массы(5)-Mass limitation(5)"
+"26;Ограничение высоты(3,5)-Height limit(3,5)"
+"27;Ограничение высоты(4,5)-Height limit(4,5)"
+"28;Поворот направо запрещен-Right turn prohibited"
+"29;Поворот налево запрещен-Left turn prohibited"
+"30;Разворот запрещен-U-turn prohibited"
+"31;Движение запрещено-Movement Prohibition"
+"32;Обгон запрещен-No overtaking"
+"33;Ограничение максимальной скорости(10)-Maximum speed limit(10)"
+"34;Опасные повороты (с первым поворотом налево)-Dangerous turns (with first left)"
+"35;Ограничение максимальной скорости(20)-Maximum speed limit(20)"
+"36;Ограничение максимальной скорости(30)-Maximum speed limit(30)"
+"37;Ограничение максимальной скорости(40)-Maximum speed limit(40)"
+"38;Ограничение максимальной скорости(5)-Maximum speed limit(5)"
+"39;Ограничение максимальной скорости(50)-Maximum speed limit(50)"
+"40;Ограничение максимальной скорости(60)-Maximum speed limit(60)"
+"41;Ограничение максимальной скорости(70)-Maximum speed limit(70)"
+"42;Ограничение максимальной скорости(80)-Maximum speed limit(80)"
+"43;Остановка запрещена-Stop prohibited"
+"44;Стоянка запрещена-No parking"
+"45;Крутой спуск-Steep descent"
+"46;Стоянка запрещена по нечетным числам месяца-Parking prohibited on odd days of the month"
+"47;Стоянка запрещена по четным числам месяца-Parking prohibited on even days of the month"
+"48;Движение транспортных средств с опасными грузами запрещено-The movement of vehicles with dangerous goods is prohibited"
+"49;Движение грузовых автомобилей запрещено-Truck traffic is prohibited"
+"50;Движение грузовых автомобилей запрещено-Truck traffic is prohibited"
+"51;Движение прямо-Going straight"
+"52;Движение направо-Movement to the right"
+"53;Движение в правую сторону-Movement to the right"
+"54;Движение в левую сторону-Movement to the left"
+"55;Движение налево-Movement to the left"
+"56;Крутой подъем-The steep climb"
+"57;Движение прямо или направо-Driving straight or to the right"
+"58;Движение прямо или налево-Driving straight or left"
+"59;Движение направо или налево-Movement right or left"
+"60;Объезд препятствия справа-Obstacle avoidance on the right"
+"61;Объезд препятствия слева-Obstacle avoidance on the left"
+"62;Объезд препятствия справа или слева-Obstacle avoidance on the right or left"
+"63;Круговое движение-Circular motion"
+"64;Скользкая дорога-Slippery road"
+"65;Неровная дорога-Rough road"
+"66;Искусственная неровность-Аrtificial bump"
